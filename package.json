@@ -1,0 +1,14 @@
+{
+  "name": "kaijunoexryori",
+  "version": "1.0.0",
+  "description": "Desktopová aplikácia: Godzilla žerie bývalých partnerov (terapeutická animácia)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.2.3"
+  }
+} 
