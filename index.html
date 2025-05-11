@@ -8,19 +8,35 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Kŕmim Godzillu</h1>
   <div class="input-section">
-    <input type="text" id="partnerName" placeholder="Zadaj meno bývalého partnera">
+    <input type="text" id="partnerName" placeholder="Zadaj meno ex" maxlength="16">
     <button id="feedBtn">Nakŕm Godzillu</button>
   </div>
+  <div id="ex-name" class="ex-name"></div>
   <div id="animation-area">
+    <div class="food-belt" id="food-belt"></div>
+    <div class="people-belt" id="people-belt"></div>
     <div id="godzilla">
       <span id="godzilla-mouth">🦖</span>
       <span id="godzilla-digest" style="display:none;">🤢</span>
     </div>
-    <div id="partner"></div>
     <div id="poop" style="display:none;">💩</div>
   </div>
+  <div class="color-picker">
+    <span class="color-ico green" id="colorGreen" title="Zelená Godzilla">🦖</span>
+    <span class="color-ico red" id="colorRed" title="Červená Godzilla">🦖</span>
+    <span class="color-ico blue" id="colorBlue" title="Modrá Godzilla">🦖</span>
+  </div>
+  <div class="fun-quote" id="funQuote"></div>
+  <footer>
+    <div class="stats">
+      <div>Počet nakŕmení: <span id="feedCount">0</span></div>
+      <div>Celkový výťažok: <span id="totalEarnings">0</span>€</div>
+      <button class="donate-btn" id="donateBtn">Prispieť na útulok</button>
+      <button class="reset-btn" id="resetBtn">Vynulovať štatistiky</button>
+    </div>
+    <div class="footer-signature">S láskou vytvorila LuGo ❤️</div>
+  </footer>
   <audio id="sound-mnam" src="sounds/mnam.mp3"></audio>
   <audio id="sound-fuj" src="sounds/fuj.mp3"></audio>
   <audio id="sound-mlasknutie" src="sounds/mlasknutie.mp3"></audio>
