@@ -1,14 +1,16 @@
 # KaijuNoExRyori
+# KaijuNoExRyori
 
-## Zvukové efekty
+KaijuNoExRyori je jednoduchá a zábavná hra pre deti aj dospelých, kde kŕmite Godzillu rôznymi jedlami a sledujete jej vtipné reakcie. Hra je vhodná na učenie, zábavu aj oddych.
 
-Vytvor priečinok `sounds` v koreňovom adresári projektu a vlož doň tieto zvukové súbory:
+## Funkcie
+- Kŕmenie Godzilly rôznymi jedlami (ovocie, zelenina, sladkosti, nápoje...)
+- Výber farby Godzilly (zelená, červená, modrá)
+- Vtipné animácie a hlášky
+- Počítadlo nakŕmení a výťažku
+- Manuálne vynulovanie štatistík
+- Zvukové efekty (mňam, fuj, mľasknutie)
 
-- `mnam.mp3` (napr. mňam efekt)
-- `fuj.mp3` (napr. fuj efekt)
-- `masknutie.mp3` (napr. zvuk zahryznutia)
-
-Zvuky môžu byť stiahnuté z bezplatných knižníc (napr. freesound.org, mixkit.co, pixabay.com/sound-effects/). Názvy súborov musia byť presne ako vyššie, aby ich aplikácia našla.
 
 ## Spustenie aplikácie
 
